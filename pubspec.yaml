@@ -1,0 +1,20 @@
+name: endgame
+description: An application to display statistics about the FIRST Robotics Competition. Data powered by The Blue Alliance.
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
